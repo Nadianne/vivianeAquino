@@ -1,4 +1,4 @@
-// Select The Elements
+
 var toggle_btn;
 var big_wrapper;
 var hamburger_menu;
@@ -60,7 +60,6 @@ function toggleAnimation() {
 
   big_wrapper.addEventListener("transitionend", () => {
     document.body.classList.remove("stop-scrolling");
-    // Reset Variables
     declare();
     events();
   });
